@@ -1,0 +1,250 @@
+
+
+/* THE INDEX PAGE STYLING BEGINS HERE */
+.hero{
+    background-image: url(asset/hero3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+#overlay{
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    height: 100%;
+    margin: 0;
+    padding-top: 60px;
+}
+
+#jumpover{
+    padding-top: 0px;
+    margin-top: -40px; 
+}
+
+#frjump{
+    border-radius: 15px 0px 0px 15px;
+    box-shadow: 0px 5px 8px darkgray;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+
+}
+
+#scjump{
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 0px 5px 8px darkgray;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+#txt1{
+    border-left: 3px solid rgb(0, 130, 182);
+    color:  rgba(62, 19, 236, 0.652);
+    font-weight: bolder;
+    padding: 5px;
+}
+.shift{
+    padding-right: 15px;
+    padding-top: 40px;
+}
+.btn{
+    border-radius: 10px;
+}
+h5{
+    color:rgb(0, 107, 149);
+}
+.sub{
+  background-color: rgba(240, 239, 239, 0.612); 
+  padding: 50px;
+}
+
+
+/* THE INDEX PAGE STYLING ENDS HERE */
+
+
+
+
+
+/* THE REGISTRATION PORTAL STYLE STARTS HERE */
+
+.log{
+    box-shadow: 0px 7px 10px rgb(169, 169, 169);
+}
+
+.bod{
+   background-color: rgb(207, 218, 240);
+    border: 2px solid #0d6efd;
+    outline: 2px solid rgb(156, 156, 239);
+    outline-offset: -6pzx;
+   
+}
+.bon{
+  background-color: rgba(207, 218, 245, 0.9)
+}
+
+#gradreg{
+    background: linear-gradient(at top right, rgb(107, 176, 229) 40%, rgba(6, 37, 237, 0.104) 60%);
+    padding: 35px;
+
+}
+
+/* THE REGISTRATION PORTAL STYLING ENDS HERE */
+
+
+/* THE DASHBOARD PORTAL STYLING STARTS HERE */
+ 
+h2{
+    font-weight: bold;
+}
+.ap{
+    font-weight: bold;
+}
+.txt{
+    color: rgb(137, 176, 238);
+}
+
+a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.6); 
+}
+
+.it:hover{
+    border-bottom:3px solid rgba(121, 165, 253, 0.976);
+     /* background-color: rgba(121, 165, 253, 0.539);  */
+    text-decoration: none;
+    padding: 5px;
+}
+.collab{
+    border:1px solid rgba(121, 165, 253, 0.539);
+    color: rgb(6, 83, 209);
+    background-color: rgba(121, 165, 253, 0.539);
+   
+    font-size: 14px;
+}
+.grad{
+     background: radial-gradient(at top right, white 70%, rgba(6, 84, 209, 0.104) 70%);
+     
+}
+.grad2{
+     background: radial-gradient(at bottom right, white 70%, rgba(6, 84, 209, 0.104) 70%);
+     
+}
+.scroll-container{
+    height: 400px;
+    overflow: auto;
+    margin-bottom: 40px;
+}
+
+/* THE DASHBOARD PORTAL STYLING ENDS HERE */
+
+
+
+/* ENGINEER DASHBOARD BEGINS HERE */
+
+.side2{
+    margin-top: 60px;
+    padding-left:30px;
+  }
+
+
+
+   /* CLIENT PAGE WHERE THEY HAVE TO SELECT STATE BEGINS HERE */
+.bignum{
+    font-weight: bolder;
+    font-size: 80px;
+    
+}
+.ic1{
+    height: 140px;
+    width: 140px;
+    background: lightgray;
+    box-shadow: 0px 7px 10px rgb(169, 169, 169);
+}
+
+
+#search{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    gap: 3px;
+    margin-top: 40px;
+    
+}
+
+/* CLIENT PAGE WHERE THEY HAVE TO SELECT STATE ENDS  HERE */
+
+
+
+
+ /* Engineer dashboard style begins here */
+
+ .cardwork{
+    width: 13rem;
+}
+#intro::firstword{
+    color: blue;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+  }
+  #side1{
+    height:90px;
+  }
+  .side2{
+    margin-top: 60px;
+    padding-left:30px;
+  }
+  
+/* Engineer dashboard style ends here*/
+
+
+/* Clientlist style begins here*/
+
+.bgf{
+    background: lightgray;
+    padding: 10px;
+    margin: 10px;
+}
+.bgb{
+    display: flex;
+    align-self: center;
+    justify-content:center;
+}
+.bignum{
+    font-weight: bolder;
+    font-size: 80px;
+    
+}
+.ic1a{
+    
+    box-shadow: 0px 2px 3px rgb(169, 169, 169);
+    height: 150px;
+    width: 150px;
+    
+}
+
+
+/* Clientlist style Ends here*/
+
+
+
+/* Admin style begins here*/
+
+.adscroll{
+    height: 500px;
+    overflow: auto;
+}
+
+
+/* Admin style begins here*/
+
+
