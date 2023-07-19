@@ -1,0 +1,5 @@
+#ignore all sql files
+*.sql
+asset/
+upload/
+workupload/
