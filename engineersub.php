@@ -1,5 +1,6 @@
 <?php
 require_once("partials/header.php");
+require_once("guard/engineerguard.php"); 
 include("partials/state.php");
 require_once("classes/Engineer.php");
 $engineer_id = $_SESSION["engineer_id"];
