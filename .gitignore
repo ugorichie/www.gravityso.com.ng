@@ -1,5 +1,7 @@
-#This is to ignore (hide) sensitive file/folders from public view
+
+#ignore all sql files
 *.sql
-*.js
-workupload/
+asset/
 upload/
+workupload/
+
