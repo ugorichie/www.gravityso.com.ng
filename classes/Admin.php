@@ -60,10 +60,19 @@ class Admin extends Db{
     }
 
 
+    public function countWork($engineer_id){
+        $sql = "SELECT * FROM engineerwork where engineer_id = ?";
+        $stmt = $this->connect()->prepare($sql);
+        $stmt->execute([$engineer_id]);
+        $count = $stmt -> rowCount();
+         return $count;
+    }
+
+
 
 
 }
 
 // $newAdmin = new Admin();
-// $newAdmin = $newAdmin-> delEngr("1");
+// $newAdmin = $newAdmin-> countWork(16);
 

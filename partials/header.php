@@ -6,21 +6,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <meta name="desription" content="">
-    <meta name="keywords" conents="engineer, build, building, state, storey building, house, hotel, structure, project, ">
+    <meta name="desription" content="Hire experienced engineering professionals">
+    <meta name="keywords" conents="engineer, build, building, state, house, hotel, structure, project, engineering, expert,skilled, connect,clients,hire,online service,network,site,professional,experienced">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    
     <link href='fontawesome/css/all.min.css' rel="stylesheet">
+    <link rel="icon" href="asset/ico.png" type="image/png" sizes="60x60">
     <link href="style.css" rel="stylesheet" type="text/css">
     <!-- <title>index page</title> -->
-
-    <style>
-        @media(max-width: 767px){
-            .ark{
-                color: blue;
-            }
-
-        }
-    </style>
    
 </head>
 <body style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">

@@ -14,10 +14,14 @@ $work = $nwork -> getWork($en_id);
 require_once("classes/comment.php");
 $newComment = new Comment();
 $com =$newComment -> getComment($en_id);
+
+require_once("classes/collab.php");
+$collabs = new Collab;
+$collab = $collabs -> getcollab($en_id);
     
 }
 // echo "<pre>";
-// print_r ($com);
+// print_r ($collab);
 // echo "</pre>";
 
  ?>
@@ -82,26 +86,26 @@ $com =$newComment -> getComment($en_id);
                     <div class="row d-flex flex-column"> 
 
                          <div class="col-12">
-                                <div class="row"> 
-                                        <div class="col-12 my-3"> <h5 class="d-inline"> Ji-Ji ISLAND SHOWROOM</h5>  &nbsp;<span class="collab my-2 mx-4"> Site-Engineer </span>
-                                            <span class="text-muted d-block">170.b Williams West Avenue. <br> Lagos Nigeria. LA 239.9483.2390</span> 
-                                        </div>
-                                
-                                </div>
+                                    <?php
+                                        foreach ($collab as $col){
+                                    ?>
 
-
-                                 <div class="row"> 
-                                     <div class="col-12 my-3"> <h5 class="d-inline"> CASPIAN-ROCKS HOTELS</h5>  &nbsp;<span class="collab my-2 mx-4"> Contract-Engineer </span>
-                                        <span class="text-muted d-block">Plot 6/9 Osborne Estate. <br> Adisababa C.V 9483.2390.745 </span> 
+                                  <div class="row"> 
+                                     <div class="col-12 my-3"> <h5 class="d-inline"> <?php echo $col['collab_title']?></h5>  &nbsp;<span class="collab my-2 mx-4"> <?php echo $col['collab_role']?> </span>
+                                        <span class="text-muted d-block"><?php echo $col['collab_address']?></span> 
                                     </div>
                         
                                 </div>
+
+                                <?php
+                                    }
+                                ?>
             
-                                <div class="row"> 
+                                <!--<div class="row"> 
                                     <div class="col-12 my-3"> <h5 class="d-inline"> FRACAZ MORRE CINEMA</h5> &nbsp; <span class="collab my-2 mx-4"> Structure Worker </span>
                                         <span class="text-muted d-block">33 Beast Reels Avenue <br> Borah Central District <br> Bauchi Nigeria. </span> 
                                     </div>
-                                 </div>
+                                 </div> -->
                              
                             </div>
                             

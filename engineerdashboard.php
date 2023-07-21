@@ -17,7 +17,9 @@ require_once("classes/Admin.php");
 $newAdmin = new Admin();
 $newAd = $newAdmin-> countStateEng($engr["state_id"]);
 
-$newCom = $newAdmin->countComEng($engineer_id)
+$newCom = $newAdmin->countComEng($engineer_id);
+
+$countengrwork = $newAdmin-> countWork($engineer_id);
 
 ?>
 
@@ -83,10 +85,9 @@ $newCom = $newAdmin->countComEng($engineer_id)
 
                             <div class="col-xl-3 col-md-6">
                                 <div class="card bg-success text-white mb-4">
-                                    <div class="card-body">Success Card</div>
+                                    <div class="card-body"> TOTAL NUMBER OF YOUR <br> UPLOADED WORKS</div>
                                     <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <a class="small text-white stretched-link" href="#">View Details</a>
-                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                        <div class="small text-white "> <?php echo $countengrwork;?></div>
                                     </div>
                                 </div>
                             </div>
