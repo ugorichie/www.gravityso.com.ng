@@ -132,9 +132,9 @@ include("partials/header.php")
             </div>
 
             
-            <div class="col-12 col-md-7 text-center sub">  
+            <div class="col-12 col-md-7 text-center sub" >  
                     <h4> Our Subsription Packages for Engineers</h4>
-                    <span class="text-center  text-muted"> Subscribing to our website and displaying your engineering portfolio can significantly enhance your professional visibility and attract potential clients. By following these simple steps  <code> <a href="#"> code is here </a></code> "creating an account, completing your profile, uploading your portfolio, and regularly updating it" - you can effectively showcase your skills and expertise to a wide audience. Embrace the opportunity to stand out in the competitive engineering landscape and unlock new professional opportunities. Start today and take your engineering career to new heights! </span>
+                    <span class="text-center  text-muted" id="faq"> Subscribing to our website and displaying your engineering portfolio can significantly enhance your professional visibility and attract potential clients. By following these simple steps  <code> <a href="#"> code is here </a></code> "creating an account, completing your profile, uploading your portfolio, and regularly updating it" - you can effectively showcase your skills and expertise to a wide audience. Embrace the opportunity to stand out in the competitive engineering landscape and unlock new professional opportunities. Start today and take your engineering career to new heights! </span>
 
             </div>
         </div>
@@ -146,7 +146,7 @@ include("partials/header.php")
         <!-- THE F.A.Q / ACCORDION  STARTS HERE -->
             <div class="row">
             <div class="col-12"> 
-              <h2 class="text-muted my-2 text-center" id="faq"> F.A.Q.s </h2>
+              <h2 class="text-muted my-2 text-center" > F.A.Q.s </h2>
           </div>
           </div>
         <div class="row my-3 justify-content-center"> 
