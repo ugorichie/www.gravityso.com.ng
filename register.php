@@ -5,7 +5,7 @@ include("partials/state.php");
 require_once("classes/Engineer.php");
 ?>
 <head>
- <title>form field</title>
+ <title>Login-Register Page</title>
 </head>
 
 
