@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <meta name="desription" content="Hire experienced engineering professionals">
     <meta name="keywords" conents="engineer, build, building, state, house, hotel, structure, project, engineering, expert,skilled, connect,clients,hire,online service,network,site,professional,experienced">
+    <meta name="author" content="Oguchi Chukwuebuka Ugochukwu">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
     
     <link href='fontawesome/css/all.min.css' rel="stylesheet">

@@ -63,8 +63,8 @@ $collab = $collabs -> getcollab($en_id);
                         <div class="col-12 my-3"> 
                        
                              <span class="it"><a href="#" data-bs-target="#terms" data-bs-toggle="modal" data-bs-whatever="@mdo"> <b> <i class="fa-solid fa-envelope"></i>&nbsp; E-Mail </b> </a></span> &nbsp;&nbsp; &nbsp; &nbsp;  &nbsp;
-                            <span class="it"><a href="#"> <b> <i class="fa-solid fa-fax"></i>&nbsp; FAX </b> </a> </span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
-                            <span class="it"> <a href="#"> <b> <i class=" fa-solid fa-envelope"></i>&nbsp; RESUME</b> </a> </span>
+                            <!-- <span class="it"><a href="#"> <b> <i class="fa-solid fa-fax"></i>&nbsp; FAX </b> </a> </span>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                            <span class="it"> <a href="#"> <b> <i class=" fa-solid fa-envelope"></i>&nbsp; RESUME</b> </a> </span> -->
                         </div>
 
                         <div class="col-12 my-2"> 
