@@ -212,7 +212,7 @@ include("partials/header.php")
                     <div class="card-body">
                      <h5 class="card-title"> L/EARN INNITIATIVE</h5>
                      <p class="card-text">Catch them young, guiding newbies through the right path. &nbsp;<a href="#"> read more.</a></p>
-                     <span class="text-muted"> Date: 17th Sept. 2023</span>      
+                     <span class="text-muted">Date: 17th October 2023</span>      
                     </div>
                     </div>
             </div>
@@ -223,7 +223,7 @@ include("partials/header.php")
                     <div class="card-body">
                      <h5 class="card-title"> GROUND BREAKING</h5>
                      <p class="card-text">Annual on-site  review of some awesome projects and award day &nbsp;<a href="#"> read more.</a></p>
-                     <span class="text-muted"> Date: 1st August. 2023.</span>       
+                     <span class="text-muted"> Date: 1st November. 2023.</span>       
                     </div>
                     </div>
             </div>
@@ -236,7 +236,7 @@ include("partials/header.php")
                 <div class="card-body">
                  <h5 class="card-title"> WOMEN IN CHARGE</h5>
                  <p class="card-text">A woman empowerment program for the female gender &nbsp;<a href="#"> read more. </a></p>  
-                 <span class="text-muted"> Date: 24th July 2023.</span>     
+                 <span class="text-muted">Date:24th November 2023.</span>     
                 </div>
                 </div>
             </div>
@@ -248,7 +248,7 @@ include("partials/header.php")
                     <div class="card-body">
                      <h5 class="card-title">YES WE CAN!</h5>
                      <p class="card-text">YES! Transitioning to the engineering world is very much possible  &nbsp;<a href="#"> read more. </a></p>       
-                     <span class="text-muted"> Date: 19th August 2023.</span> 
+                     <span class="text-muted"> Date: 19th January 2024.</span> 
                     </div>
                     </div>          
             </div>
