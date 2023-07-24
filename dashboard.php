@@ -118,7 +118,7 @@ $collab = $collabs -> getcollab($en_id);
                                         <div> 
                                         <input type="hidden" value="<?php echo $engr['engineer_id']?>" name="engineer_id">
                                             <label for="email"> EMAIL: </label>
-                                            <input type="email" name="email" id="email"class="form-control my-1" placeholder="joe@gamil.com">
+                                            <input type="email" name="email" id="email"class="form-control my-1" placeholder="joe@gmail.com">
                                             
                                         </div>
                                         <div>
