@@ -14,7 +14,14 @@
     <link href='fontawesome/css/all.min.css' rel="stylesheet">
     <link rel="icon" href="asset/ico.png" type="image/png" sizes="60x60">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <!-- <title>index page</title> -->
+    
+
+    <!-- OpenGraph Meta Tags -->
+    <meta property="og:title" content="GRAVITY SOLUTION">
+    <meta property="og:description" content="A plateform that bridges the gap between qualified engineers and potential customers for project/building needs">
+    <meta property="og:image" content="gravityso.com.ng/asset/logo.png">
+    <meta property="og:url" content="gravityso.com.ng">
+    <meta property="og:type" content="website">
    
 </head>
 <body style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
