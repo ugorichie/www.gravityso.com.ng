@@ -3,7 +3,7 @@
 
 Gravity.com.ng - a platform aimed at bridging the huge gap between individual clients and well-certified engineers
 
-it allows clients to easily find and select from a variety of engineers located in the selected state, whether you need a civil , mechanical, structural, or construction engineer, gravity.com.ng has got you covered.
+it allows clients to easily find and select from a variety of engineers located in the selected state, whether you need a civil, mechanical, structural, or construction engineer, gravity.com.ng has got you covered.
 Our user-friendly interface and powerful features make it simple to connect the perfect engineer for your project needs
 
 The Aim Of This Project include:
@@ -31,8 +31,8 @@ As earlier stated, this is a platform aimed at bridging the huge gap between ind
 (Engineer Side)
 - User Accounts: Engineers can register and create detailed profiles, showcasing their skills, works, experience, and contact information
 - Authentication and Authorization: Secure login and role-based access for engineers, and administrator(s).
-- Subscription: Engneers can subcribe to the platform to keep their accounts active and works displayed on index page
-- Admin Dashboard: An administrative dashboard to manage engineers' profiles, user settings.
+- Subscription: Engineers can subscribe to the platform to keep their accounts active and works displayed on the index page
+- Admin Dashboard: An administrative dashboard to manage engineers' profiles and user settings.
   
   
 (Client Side)
@@ -48,7 +48,7 @@ As earlier stated, this is a platform aimed at bridging the huge gap between ind
 - HTML
 
       CONTACT
-  If you have any questions or suggestions about gravity.com.ng, please feel free to contact ugoebukaoguchi@gmail.com or visit our website at www.gravity.com.ng  - Happy engineering!
+  If you have any questions or suggestions about gravity.com.ng, please feel free to contact ugoebukaoguchi@gmail.com or visit our website at www.gravityso.com.ng  - Happy engineering!
   
 Oguchi Chukwuebuka Ugochukwu.
 
