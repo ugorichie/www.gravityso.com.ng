@@ -3,7 +3,7 @@
 
 gravityso.com.ng - a platform aimed at bridging the huge gap between individual clients and well-certified engineers
 
-it allows clients to easily find and select from a variety of engineers located in the selected state, whether you need a civil, mechanical, structural, or construction engineer, gravity.com.ng has got you covered.
+it allows clients to easily find and select, from a variety of engineers located in the selected state, whether you need a civil, mechanical, structural, or construction engineer, gravity.com.ng has got you covered.
 Our user-friendly interface and powerful features make it simple to connect the perfect engineer for your project needs
 
 The Aim Of This Project include:
@@ -12,9 +12,9 @@ The Aim Of This Project include:
   
   2-  Reducing mismanagement of resources by unqualified engineers.
 
-  3- Potentially increasing structure standard in the country
+  3- Potentially increasing structure standard in the country.
 
-  4- Eliminate unqualified engineers from the society
+  4- Eliminate unqualified engineers from the society.
 
                                 
                                     TABLE OF CONTENTS
