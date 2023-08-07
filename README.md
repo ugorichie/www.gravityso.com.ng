@@ -12,9 +12,9 @@ The Aim Of This Project include:
   
   2-  Reducing mismanagement of resources by unqualified engineers.
 
-  3- Potentially increasing structure standard in the country.
+  3- Potentially increasing structure standards in the country.
 
-  4- Eliminate unqualified engineers from the society.
+  4- Eliminate unqualified engineers from society.
 
                                 
                                     TABLE OF CONTENTS
