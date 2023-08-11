@@ -58,6 +58,8 @@ $engr = $engr -> getEngineerDetails($engineer_id);
                
                <div class="col-10">
 
+                  <!-- HERE IS A BOOTSTRAP ALERT THAT POPS WITH A MESSAGE TO INFORM THE ENGINEER IF THE PASSWORD CHANGE WAS SUCCESSFUL OR NOT -->
+
                             <?php
                               if(isset($_SESSION["err_pass"])){
                                  ?>
