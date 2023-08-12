@@ -3,7 +3,7 @@ require_once("Db.php");
 
 class Work extends Db{
 
-
+// THIS FUNCTION IS RESPONSIBLE FOR INSERTING ENGINEERS WORK INTO THE DATABASE
 
 public function insertWork($work_image,$work_title,$work_description,$engineer_id){
     $sql = "INSERT INTO engineerwork (work_image,work_title,work_description,engineer_id) VALUES (?,?,?,?)";
@@ -14,6 +14,8 @@ public function insertWork($work_image,$work_title,$work_description,$engineer_i
     }
 
 }
+
+// RESPONSIBLE FOR FECTHING WORKS UPLOADED INTO THE DATABASE BY THE ENGINEER 
 
 public function getWork($engineer_id){
     $sql = "SELECT * FROM engineerwork WHERE engineer_id = ?";
