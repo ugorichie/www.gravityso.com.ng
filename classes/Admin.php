@@ -58,7 +58,7 @@ class Admin extends Db{
         $stmt = $this->connect()->prepare($sql);
         $stmt->execute([$engineer_id]);
         $count = $stmt -> rowCount();
-         return $count;
+         return $count; 
     }
 
 

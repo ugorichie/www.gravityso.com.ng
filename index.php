@@ -13,7 +13,7 @@ include("partials/header.php")
                 <div class="col-d-none col-md-6"> <img> </div>
                 <div class="col-12 col-md-6 shift"> 
                     <h3 id="txt1" class="text-white">Bridging The Gap Between <b style="color: rgb(78, 154, 255);">ENGINEERS</b> and <b style="color:rgb(78, 154, 255);">POTENTIAL CLIENTS</b></h3> 
-                    <span class="text-white"> WE CONNECT POTENTIAL CLIENTS TO WELL DESERVING ENGINEERS</span>
+                    <span class="text-white"> WE CONNECT POTENTIAL CLIENTS TO WELL-DESERVING ENGINEERS</span>
 
                     <br> <br><a href="register.php" class="btn btn-outline-secondary text-white align-center"> GET STARTED </a>
                     
@@ -30,7 +30,7 @@ include("partials/header.php")
         <div class="row row-cols-d-none d-flex justify-content-center" id="jumpover">
             
             <div class="col-12 col-md-4 text-center" id="frjump"> 
-                    <h5>  For Engineers</h5>
+                    <h5> As Engineers</h5>
                     <span class="text-muted"> Join a vibrant community of accredited engineers.<br> Register with us as. Get clients with ease. </span> <br> <br>
                     <a href="register.php" class="btn btn-outline-secondary btn-sm"> continue as engineer </a>
 
@@ -62,8 +62,8 @@ include("partials/header.php")
                   These casualties are seen to be mostly due to poor structure of the building which in turn traces down to the engineers involved, 
                   therefore the need to tackle this rising problem.
                   
-                  A measure to cut undeserving , unqualified engineers off the system became a necessity,
-                  hence the birth of Gravity_Solutions
+                  A measure to cut undeserving, unqualified engineers off the system became a necessity,
+                  hence the birth of Gravity Solution.
                 </p>
 
 
@@ -156,13 +156,13 @@ include("partials/header.php")
                             <div class="accordion-item">
                               <h2 class="accordion-header">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                  What is Gravity_Solutions known for?
+                                  What is Gravity Solution known for?
                                     
                                 </button>
                               </h2>
                               <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
                                 <div class="accordion-body">
-                                  <strong>What is Gravity_Solutions known for?</strong> Gravity_Solutions, a user friendly web app with an awesome graphic user interface (G.U.I) comes with easy features to allow our customers source for well deserving engineers to tackle and solve whatever problems they might have.
+                                  <strong>What is Gravity Solution known for?</strong> <br> Gravity Solution, a user friendly web app with an awesome graphic user interface (G.U.I) comes with easy features to allow our customers source for well deserving engineers to tackle and solve whatever problems they might have.
                                 </div>
                               </div>
                             </div>
@@ -174,7 +174,7 @@ include("partials/header.php")
                               </h2>
                               <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
                                 <div class="accordion-body">
-                                  <strong>How to source for engineers.</strong> Quite an easy one. we curate the best well trained qualifies enigneers across the country. To access them, you need to specify to &nbsp;<code><a href="client.php"> continue as a client</a> </code> and then input your location in the input provided to have access to engineers  in your viccinity. Also, features ar emade available to access events happening across the country.
+                                  <strong>How to source for engineers.</strong> <br> Quite an easy one. we curate the best well trained qualifies enigneers across the country. To access them, you need to specify to &nbsp;<code><a href="client.php"> continue as a client</a> </code> and then input your location in the input provided to have access to engineers  in your viccinity. Also, features ar emade available to access events happening across the country.
                               </div>
                             </div>
                             <div class="accordion-item">
@@ -185,7 +185,7 @@ include("partials/header.php")
                               </h2>
                               <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
                                 <div class="accordion-body">
-                                  <strong>Do i need to register as a client?.</strong> Having to register as a client is not made available yet. regardless it doesnt  deprive you the access to our long list of qualified engineers.
+                                  <strong>Do i need to register as a client?.</strong> <br> Having to register as a client is not made available yet. regardless it doesnt  deprive you the access to our long list of qualified engineers.
                                 </div>
                               </div>
                             </div>

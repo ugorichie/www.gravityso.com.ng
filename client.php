@@ -144,7 +144,7 @@
 
                 <div class="col-12 col-md-6 row"> 
                     <div class="col-2"> <h1 class="bignum text-center pt-3"> 6 </h1>  </div>
-                    <div class="col-9 col-md-6"> <h5> FEEDBACKS</h5>
+                    <div class="col-9 col-md-6"> <h5> FEEDBACK</h5>
                         <p>We value your feedback and would greatly appreciate it if you could take a moment to share your comments and rate your experience with the engineer after your projrct is completed or after you have met with them  </p>
                      </div>
                         <div class="col d-none d-md-table-cell col-md-4 pt-2 ic1" style="border-radius: 100%" >
