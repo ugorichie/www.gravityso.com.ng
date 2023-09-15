@@ -1,5 +1,5 @@
-                 PROJECT TITLE: GRAVITY SOLUTION (https://www.gravityso.com.ng
-                Bridging The Gap Between Potential Clients and Qualified Engineers
+               		  PROJECT TITLE: GRAVITY SOLUTION (https://www.gravityso.com.ng
+               		 Bridging The Gap Between Potential Clients and Qualified Engineers
 
 gravityso.com.ng - a platform aimed at bridging the huge gap between individual clients and well-certified engineers
 
