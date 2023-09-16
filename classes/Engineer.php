@@ -31,9 +31,7 @@ class Engineer extends Db{
 
         }
 
-
   //LOGIN METHOD 
-
   public function loginEngr($email, $password){
     //check if the email is in the database when user wants to log in
     $sql = "SELECT * FROM engineerdetails WHERE engineer_email = ?";
