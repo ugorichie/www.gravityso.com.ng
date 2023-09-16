@@ -4,8 +4,6 @@ require_once("Db.php");
 
 class Engineer extends Db{
 
-
-
      public function registerEngr($engineer_firstname,$engineer_lastname, $engineer_othername, $engineer_gender, $engineer_YOE, $engineer_DOB,      $engineer_email,$engineer_password,$engineer_phone,$state_id){
 
         $sql = "SELECT * FROM engineerdetails WHERE engineer_id = ?";
