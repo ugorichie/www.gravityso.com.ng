@@ -15,7 +15,7 @@ require_once("classes/comment.php");
 $newComment = new Comment();
 $com =$newComment -> getComment($en_id);
 
-require_once("classes/collab.php");
+require_once( "classes/collab.php" );
 $collabs = new Collab;
 $collab = $collabs -> getcollab($en_id);
     
@@ -23,7 +23,6 @@ $collab = $collabs -> getcollab($en_id);
 // echo "<pre>";
 // print_r ($collab);
 // echo "</pre>";
-
  ?>
 
 
@@ -104,7 +103,7 @@ $collab = $collabs -> getcollab($en_id);
                                 <!--<div class="row"> 
                                     <div class="col-12 my-3"> <h5 class="d-inline"> FRACAZ MORRE CINEMA</h5> &nbsp; <span class="collab my-2 mx-4"> Structure Worker </span>
                                         <span class="text-muted d-block">33 Beast Reels Avenue <br> Borah Central District <br> Bauchi Nigeria. </span> 
-                                    </div>
+                                    </div> 
                                  </div> -->
                              
                             </div>
