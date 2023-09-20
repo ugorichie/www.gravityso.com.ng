@@ -8,8 +8,6 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
-
-
     <div class="row" id="search">
                 <?php
                      if(isset($_SESSION["sum_form_error"])){
@@ -42,7 +40,6 @@
 
         
     </div>
-
 <!-- <div class="row">  -->
 
     <div class="row my-4">
@@ -87,7 +84,6 @@
 
 
 
-   
     <div class="row"> 
             <div class="col-12 col-md-6 row "> 
                     <div class="col-2"> <h1 class="bignum text-center pt-3"> 3 </h1>  </div>
