@@ -4,9 +4,6 @@ require_once("Db.php");
 
 class Admin extends Db{
 
-
-    
-
     // THIS FUNCTION COUNTS ALL ENGINEERS REGISTERED ON THE SITE
 
     public function countEng(){
