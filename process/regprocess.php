@@ -50,7 +50,7 @@ session_start();
          exit();
         }
 
-        //VALIATE PASSWORD AND CONFIRM PASSWORD 
+        //VALIDATE PASSWORD AND CONFIRM PASSWORD 
         if($pass !== $confirmpass){
             $_SESSION["form"] = " REGISTRATION FAILED: &nbsp; Password and Confirm Password Must Be The Same, please complete your registration registration";
         header("location:../register.php");
