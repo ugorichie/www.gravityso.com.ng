@@ -48,7 +48,7 @@ As earlier stated, this is a platform aimed at bridging the huge gap between ind
 - HTML
 
       CONTACT
-  If you have any questions or suggestions about gravity.com.ng, please feel free to contact ugoebukaoguchi@gmail.com or visit our website at www.gravityso.com.ng  - Happy engineering!
+  If you have any questions or suggestions about gravity.com.ng, please feel free to contact ugoebukaoguchi@gmail.com or visit the website at www.gravityso.com.ng  - Happy engineering!
   
 Oguchi Chukwuebuka Ugochukwu.
 
