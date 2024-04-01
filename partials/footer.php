@@ -62,7 +62,7 @@
       <ul class="list-unstyled d-flex">
         <li class="ms-3"><a class="link-body-emphasis" href="https://github.com/ugorichie/gravity.com.ng"> <i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i> </a></li>
         <li class="ms-3"><a class="link-body-emphasis" href="https://www.linkedin.com/in/chukwuebuka-oguchi-4773691b1/">  <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i>  </a></li>
-        <li class="ms-3"><a class="link-body-emphasis" href="twitter/ugo_richie"><i class="fa-brands fa-twitter fa-xl" style="color: #ffffff;"></i></a></li>
+        <!-- <li class="ms-3"><a class="link-body-emphasis" href="twitter/ugo_richie"><i class="fa-brands fa-twitter fa-xl" style="color: #ffffff;"></i></a></li> -->
       </ul>
     </div>
   </footer>

@@ -43,31 +43,41 @@
                                 <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> GRAVITY SOLUTION</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
-                                <div class="offcanvas-body">
-                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3"> 
-                                    <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                 <?php
+
+//if(!isset($_SESSION)){
+    
+    ?> 
+                                      <div class="offcanvas-body">
+                                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3"> 
+                                <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                                </li>
+                            
+                                <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Navigation
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="register.php">Engineer</a></li>
+                                    <li><a class="dropdown-item" href="client.php">Client</a></li>
+                                    <li>
+                                    <hr class="dropdown-divider">
                                     </li>
-                                
-                                    <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Navigation
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="register.php">Engineer</a></li>
-                                        <li><a class="dropdown-item" href="client.php">Client</a></li>
-                                        <li>
-                                        <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#faq">F.A.Q.s</a></li>
-                                    </ul>
-                                    </li>
+                                    <li><a class="dropdown-item" href="#faq">F.A.Q.s</a></li>
                                 </ul>
+                                </li>
+                            </ul>
+                            </div>
+                                    
+                                 <?php
+                            //}
+                                
+                                ?>  
                                
                                     <!-- <button class="btn btn-secondary" type="submit">Login</button> &nbsp; &nbsp; &nbsp;
                                     <button class="btn btn-outline-secondary" type="submit">Sign Up</button> -->
                                 
-                                </div>
                             </div>
                             </div>
                         </nav>
