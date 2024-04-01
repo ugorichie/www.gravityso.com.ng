@@ -1,5 +1,21 @@
 <?php
-include("partials/header.php")
+// $username = 'gravitysolution';
+// $password = 'gravitysolution';
+
+// // THIS IS FOR HTTP BASIC AUTHNETICATION THAT WAS LEARNT, WHEN TESTING ON POSTMAN,HEADER AUTHORIZATION SHOULD BE SET
+// if (!isset($_SERVER['PHP_AUTH_USER'])){
+//   header('WWW-Authenticate: Basic realm= "Parcel-Tracker"');
+//   header('HTTP/1.0 401 UNAUTHORIZED');
+//   echo ("you need to set a password and ussername");
+//   exit;
+// }
+// if(($_SERVER['PHP_AUTH_USER'] !== $username) || ($_SERVER['PHP_AUTH_PW'] !== $password )){
+//   header('HTTP/1.0 403 unauthorized ');
+//   echo('username and password do not match');
+//   exit;
+// }
+
+include("partials/header.php");
 ?>
 <head>
   <title>Home</title>
@@ -212,7 +228,12 @@ include("partials/header.php")
                     <div class="card-body">
                      <h5 class="card-title"> L/EARN INNITIATIVE</h5>
                      <p class="card-text">Catch them young, guiding newbies through the right path. &nbsp;<a href="#"> read more.</a></p>
-                     <span class="text-muted">Date: 17th October 2023</span>      
+                     <span class="text-muted"><?php $currentDate = new DateTime();
+                                            $currentDate->modify('+3 months'); 
+                                            $currentDate->format('Y-m-d');
+                                            $formattedDate = $currentDate->format('jS \of F Y');
+                                            echo 'Date: '. $formattedDate;// Output the date in yyyy-mm-dd format
+                                            ?></span>      
                     </div>
                     </div>
             </div>
@@ -223,7 +244,12 @@ include("partials/header.php")
                     <div class="card-body">
                      <h5 class="card-title"> GROUND BREAKING</h5>
                      <p class="card-text">Annual on-site  review of some awesome projects and award day &nbsp;<a href="#"> read more.</a></p>
-                     <span class="text-muted"> Date: 1st November. 2023.</span>       
+                     <span class="text-muted"> <?php $currentDate = new DateTime();
+                                            $currentDate->modify('+5 months'); 
+                                            $currentDate->format('Y-m-d');
+                                            $formattedDate = $currentDate->format('jS \of F Y');
+                                            echo  'Date: '.$formattedDate;// Output the date in yyyy-mm-dd format
+                                            ?>.</span>       
                     </div>
                     </div>
             </div>
@@ -236,7 +262,13 @@ include("partials/header.php")
                 <div class="card-body">
                  <h5 class="card-title"> WOMEN IN CHARGE</h5>
                  <p class="card-text">A woman empowerment program for the female gender &nbsp;<a href="#"> read more. </a></p>  
-                 <span class="text-muted">Date:24th November 2023.</span>     
+                 <span class="text-muted"><?php $currentDate = new DateTime();
+                                            $currentDate->modify('+3 months'); 
+                                            $currentDate->modify('+7 days');
+                                            $currentDate->format('Y-m-d');
+                                            $formattedDate = $currentDate->format('jS \of F Y');
+                                            echo'Date: '. $formattedDate;// Output the date in yyyy-mm-dd format
+                                            ?></span>     
                 </div>
                 </div>
             </div>
@@ -248,7 +280,7 @@ include("partials/header.php")
                     <div class="card-body">
                      <h5 class="card-title">YES WE CAN!</h5>
                      <p class="card-text">YES! Transitioning to the engineering world is very much possible  &nbsp;<a href="#"> read more. </a></p>       
-                     <span class="text-muted"> Date: 19th January 2024.</span> 
+                     <span class="text-muted"> Date: 19th January 2025.</span> 
                     </div>
                     </div>          
             </div>

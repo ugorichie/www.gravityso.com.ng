@@ -56,7 +56,7 @@
 
     <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
       <div>
-      <p>&copy; 2023 Gravity Solution. All rights reserved.</p>
+      <p>&copy; <?php echo date('Y') ?> Gravity Solution. All rights reserved.</p>
       <p>  Oguchi Chukwuebuka U.</p>
     </div>
       <ul class="list-unstyled d-flex">
