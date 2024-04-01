@@ -1,9 +1,8 @@
 <?php
+
 require_once("Db.php");
 
 class Engineer extends Db{
-
-
 
      public function registerEngr($engineer_firstname,$engineer_lastname, $engineer_othername, $engineer_gender, $engineer_YOE, $engineer_DOB,      $engineer_email,$engineer_password,$engineer_phone,$state_id){
 
@@ -32,9 +31,7 @@ class Engineer extends Db{
 
         }
 
-
   //LOGIN METHOD 
-
   public function loginEngr($email, $password){
     //check if the email is in the database when user wants to log in
     $sql = "SELECT * FROM engineerdetails WHERE engineer_email = ?";

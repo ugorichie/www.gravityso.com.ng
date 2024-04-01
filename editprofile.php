@@ -8,7 +8,6 @@ $engr = $engr -> getEngineerDetails($engineer_id);
 // echo "<pre>";
 // print_r($engr);
 // echo "</pre>";
-
 ?>
 <head>
     <title> edit profile </title>
@@ -95,9 +94,6 @@ $engr = $engr -> getEngineerDetails($engineer_id);
                         
                        <div class="my-2"> <label>CHANGE PROFILE PICTURE</label>  <input type="file" name="pic" class="form-control my-1"> </div>
 
-
-
-                   
                        <div class="my-1"> <label for="fname"> FIRST NAME</label>  <input type=" text" id="fname" name="fname" class="form-control my-1" value="<?php echo $engr['engineer_firstname']?>"></div>
                        <div class="my-2"> <label for="lname"> LAST NAME</label>  <input type="text" name="lname" class="form-control my-1" value="<?php echo $engr['engineer_lastname']?>"> </div>	
                       <div class="row my-2">

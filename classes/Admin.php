@@ -4,9 +4,6 @@ require_once("Db.php");
 
 class Admin extends Db{
 
-
-    
-
     // THIS FUNCTION COUNTS ALL ENGINEERS REGISTERED ON THE SITE
 
     public function countEng(){
@@ -50,7 +47,6 @@ class Admin extends Db{
          return $count;
     }
 
-
     // THIS FUNCTION COUNTS THE NUMBER OF COMMENTS ON AN ENGINEER, 
 
     public function countComEng($engineer_id){
@@ -60,7 +56,6 @@ class Admin extends Db{
         $count = $stmt -> rowCount();
          return $count; 
     }
-
 
     // THIS FUNCTION COUNTS THE NUMBER OF WORK POSTED BY THE ENGINNER
 
@@ -76,7 +71,6 @@ class Admin extends Db{
 
 
 }
-
 // $newAdmin = new Admin();
 // $newAdmin = $newAdmin-> countWork(16);
 
