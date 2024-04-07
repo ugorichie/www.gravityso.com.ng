@@ -39,7 +39,7 @@ As earlier stated, this is a platform aimed at bridging the huge gap between ind
 - State-based Search: Clients can filter engineers based on their location within the state for easy access to local professionals.
 - Ratings and Reviews: Clients can leave feedback and ratings based on their experience with an engineer.
 
-      TOOLS USED:
+        TOOLS USED:
 - PHP
 - REST API
 - AJAX 
